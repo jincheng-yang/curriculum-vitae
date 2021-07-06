@@ -24,15 +24,17 @@
 
 \usepackage{hyperref}
 \usepackage{verbatim}
-\usepackage{enumerate}
+\usepackage{enumitem}
 \usepackage{etaremune}
+\usepackage{xfrac}
+\usepackage{mathabx}
 % \usepackage{bibentry}
 % \usepackage{biblatex}
 % \addbibresource{list.bib}
 
 \begin{document}
 
-% \vspace*{-0.8in}
+\vspace*{-0.4in}
 \pagenumbering{gobble}
 \name{Jincheng Yang \vspace*{.1in}}
 
@@ -40,30 +42,32 @@
 
 \section{\sc Contact Information}
 %\vspace{.05in}
-\begin{tabular}{@{}p{2.7in}p{3.05in}}        
-Department of Mathematics & {\it Voice:}    (+1) 512-317-7231 \\
+\begin{tabular}{@{}p{2.5in}p{3.25in}}        
+Department of Mathematics & {\it Voice:} (+1) 512-317-7231 \\
 College of Natural Science & {\it E-mail:} \href{mailto:jcyang@math.utexas.edu}{\sf jcyang@math.utexas.edu}\\
-The University of Texas at Austin & {\it LinkedIn:} \href{https://www.linkedin.com/in/jincheng-yang/}{\sf linkedin.com/in/jincheng-yang/}\\
-Austin, TX 78712 USA & {\it Website:} \href{https://www.ma.utexas.edu/users/jcyang/}{\sf https://www.ma.utexas.edu/users/jcyang/}\\
+The University of Texas at Austin & {\it Website:} \href{https://www.ma.utexas.edu/users/jcyang/}{\sf https://www.ma.utexas.edu/users/jcyang/}\\
+% {\it LinkedIn:} \href{https://www.linkedin.com/in/jincheng-yang/}{\sf https://www.linkedin.com/in/jincheng-yang/}\\
+Austin, TX 78712 USA & 
+% {\it Website:} \href{https://www.ma.utexas.edu/users/jcyang/}{\sf https://www.ma.utexas.edu/users/jcyang/}\\
 \end{tabular}
 
 
 \section{\sc Research Interests}
-Analysis, dynamical systems, partial differential equations, and their application in fluid mechanics
-\bigskip
+Analysis, dynamical systems, partial differential equations, and their application in fluid dynamics, plasma physics, optimal mass transportation.
 
 \section{\sc Education}
 
 {\bf The University of Texas at Austin}, Austin, Texas USA\\
 \vspace*{-.1in}
 \begin{list1}
-\item[] Ph.D. Candidate in Mathematics (Pure) \hfill Aug. 2017 - Present
+\item[] Ph.D. Candidate in Mathematics (Pure) \hfill Aug. 2017 -- Present
+\item[] Advisor: Luis A. Caffarelli and Alexis F. Vasseur
 \end{list1}
 
 {\bf Xi'an Jiaotong University} (XJTU), Xi'an, Shaanxi China\\
 \vspace*{-.1in}
 \begin{list1}
-\item[] B.Sc. in Mathematics and Applied Mathematics (Elite Class)\hfill Aug. 2013 - July 2017
+\item[] B.Sc. in Mathematics and Applied Mathematics (Elite Class)\hfill Aug. 2013 -- July 2017
 \item[] Thesis: \textit{Linear Inviscid Damping of a Shear Flow in a Half Space and in a Finite Channel}
 \item[] Advisor: Dongsheng Li and Zhiwu Lin
 %\item[] Overall GPA: 94.7/100\ \ \ \ Major GPA: 96.0/100
@@ -93,25 +97,225 @@ Analysis, dynamical systems, partial differential equations, and their applicati
 % {\bf First Everest Research Scholarship}, %awarded by 
 % XJTU \hfill {\bf 2014}\\
 %{\bf Microsoft Scholarship for Young Scholar}, only 36 students in China are awarded by Microsoft Research - Asia \hfill {\bf 2015}\\
-{\bf National Scholarship}, 
 %top 1\% students, awarded by 
-Ministry of Education, China \hfill {\bf 2016}\\
-{\bf Outstanding Student}, (The highest honor on campus, 10⁄30000),
-XJTU \hfill {\bf 2016}\\
-{\bf Frank Gerth III Graduate Excellence Award}, UT Austin \hfill {\bf 2018}\\
-{\bf Senate of College Council's TA of the Year}, UT Austin \hfill {\bf 2019}\\
-{\bf Frank Gerth III Teaching Excellence Award}, UT Austin \hfill {\bf 2020}
+{\bf University Graduate Continuing Fellowship}, 
+UT Austin \hfill {Mar 2021}\\
+{\bf Frank Gerth III Teaching Excellence Award}, 
+UT Austin \hfill {June 2020}\\
+{\bf Senate of College Council's TA of the Year}, 
+UT Austin \hfill {Apr 2019}\\
+{\bf Frank Gerth III Graduate Excellence Award}, 
+UT Austin \hfill {June 2018}\\
+{\bf Outstanding Student} 
+(The highest honor on campus, \sfrac{10}{30000}),
+XJTU \hfill {Oct 2016}\\
+{\bf National Scholarship},
+Ministry of Education, China \hfill {Sept 2016}
 
-\begin{comment}
-\section{\sc Standardized Tests}
-\begin{list2}
-\item GRE General: 322 (V152, Q170, W3.5) \hfill { Dec. 6, 2015}
-\item GRE Subject (Mathematics): 910 (99\% Below) \hfill { Apr. 16, 2016}
-\item TOEFL iBT: 109 (R29, L29, S24, W27) \hfill { Apr. 22, 2016}
-\end{list2}
-\end{comment}
+% \begin{comment}
+% \section{\sc Standardized Tests}
+% \begin{list2}
+% \item GRE General: 322 (V152, Q170, W3.5) \hfill { Dec 6, 2015}
+% \item GRE Subject (Mathematics): 910 (99\% Below) \hfill { Apr 16, 2016}
+% \item TOEFL iBT: 109 (R29, L29, S24, W27) \hfill { Apr 22, 2016}
+% \end{list2}
+% \end{comment}
+
+\newcommand{\vvspace}{\vspace{0.1in}}
+
+\section{\sc Publications}
+
+{\bf Journal Articles}
+\vvspace
+
+% \begin{etaremune}[leftmargin=0.02in, start=2]
+\begin{itemize}[leftmargin=0.15in, label=$\sqbullet$]
+    
+    \item Alexis Vasseur, Jincheng Yang. \textit{Second Derivatives Estimate of Suitable Solutions to the 3D Navier--Stokes Equations},  \href{https://doi.org/10.1007/s00205-021-01661-4}{Archive for Rational Mechanics and Analysis, \textbf{241}: 683–727.} (2021)
+
+    \item Zhiwu Lin, Jincheng Yang, Hao Zhu. \textit{Barotropic Instability of Shear Flows}, 
+    \href{https://doi.org/10.1111/sapm.12297}{Studies in Applied Mathematics, \textbf{144}: 289-326.} (2020)
+    
+    \item Jincheng Yang, Zhiwu Lin. \textit{Linear Inviscid Damping for Couette Flow in Stratified Fluid}, \href{https://doi.org/10.1007/s00021-017-0328-3}{Journal of Mathematical Fluid Mechanics, \textbf{20}: 445-472.} (2018)
+\end{itemize}
+% \end{etaremune}
+
+{\bf Preprints}
+\vvspace
+
+\begin{itemize}[leftmargin=0.15in, label=$\sqbullet$]
+
+    \item Rui Gao, Jincheng Yang, Luhao Zhang. \textit{Robust Policy Optimization for Feature-Based Newsvendor}, submitted (2021) 
+
+    \item Jincheng Yang. \textit{Construction of Maximal Functions associated with Skewed Cylinders Generated by Incompressible Flows and Applications}, submitted, \href{https://arxiv.org/abs/2008.05588}{arXiv:2008.05588} (2020)
+    
+\end{itemize}
+
+% {\bf In Preparation}
+% \vvspace
+
+% \begin{itemize}[leftmargin=0.15in, label=$\sqbullet$]
+%     \item Jincheng Yang, Luhao Zhang, Rui Gao. \textit{Optimal Policies for Robust Big Data Newsvendor} (2021) 
+%     \item Luhao Zhang, Jincheng Yang, Rui Gao. \textit{Distributionally Robust End-to-end Learning with Contextual Information} (2021)
+%     \item Luhao Zhang, Jincheng Yang, Rui Gao. 
+%     \textit{A Simple Duality Proof for Wasserstein Distributionally Robust Optimization} (2021)
+% \end{itemize}
+
+
+% {\bf Book}
+% \vvspace
+
+% \begin{itemize}[leftmargin=0.15in, label=$\sqbullet$]
+%     \item Tao Xie, Xiangqian Cheng, Jincheng Yang. \textit{RAPTOR Program Designing Tutorial}. Beijing: Tsinghua University Press. (2014)
+% \end{itemize}
+
+\renewcommand{\vvspace}{\vspace{0.1in}}
+\newcommand{\nvspace}{\vspace{-0.00in}}
 
 \section{\sc Academic Experience}
+
+{\bf Visiting}
+\vvspace
+
+\begin{itemize}[leftmargin=0.15in, label=$\sqbullet$]
+    \item \textit{Georgia Institute of Technology}, Atlanta, GA \hfill { 2016 -- 2017}
+    \item \textit{Columbia University in the City of New York}, New York City, NY \hfill { 2015}
+\end{itemize}
+
+\nvspace 
+{\bf Conferences and Workshops}
+\vvspace
+
+\begin{itemize}[leftmargin=0.15in, label=$\sqbullet$]
+
+    \item \textit{Mathematical Sciences Research Institute},
+    Virtual Summer Graduate School: Introduction to Water Waves
+    \hfill July 2020
+    
+    \item \textit{Northwestern University},
+    Summer School in Semiclassical Analysis
+    \hfill July 2019
+    
+    \item \textit{Instituto de Ciencias Matemáticas},
+    Summer School on Fluid Mechanics at the ICMAT
+    \hfill June 2019
+    
+    \item \textit{Columbia University},
+    Workshop on Free Boundary Problems 
+    \hfill May 2019
+    
+    \item \textit{The University of Texas at Austin},
+    On Nonlinear PDEs and their Applications 
+    \hfill Mar 2019
+    
+\end{itemize}
+
+\nvspace 
+{\bf Invited Talks}
+\vvspace
+
+\begin{itemize}[leftmargin=0.15in, label=$\sqbullet$]
+        
+    \item American Mathematical Society, \textit{Spring Western Sectional Meeting} 
+        \nvspace
+        \begin{itemize}
+            \item Special Session on Nonlinear PDEs and Fluid Dynamics \hfill May 2021
+        \end{itemize}
+    
+    \item American Mathematical Society, \textit{Spring Eastern Sectional Meeting}
+        \nvspace 
+        \begin{itemize}
+            \item Contributed Paper Session \hfill Mar 2021
+        \end{itemize}
+    
+\end{itemize}
+
+\nvspace 
+{\bf Seminar Talks}
+\vvspace
+
+\begin{itemize}[leftmargin=0.15in, label=$\sqbullet$]
+    
+    \item Junior Analysis Seminar,
+    \textit{Shapley Extension and Application}
+    \hfill Apr 2021
+    
+    \item Junior Analysis Seminar, 
+    \textit{Distributionally Robust Optimization}
+    \hfill Oct 2020
+    
+    \item Junior Analysis Seminar, 
+    \textit{Oscillatory Integral and Decay of Dispersive Equation }
+    \hfill Apr 2020
+
+    \item[$\star$] Ph.D. Candidacy Talk,
+    \textit{A New Covering Lemma and its Application in 3D Incompressible Navier--Stokes Equations}
+    \hfill Mar~2020
+
+    \item Harmonic Analysis Reading Seminar,
+    \textit{Introduction to Hardy Space}
+    \hfill Nov 2019
+    
+    \item Junior Analysis Seminar, 
+    \textit{A Covering Lemma for Fluid Equations and its Application to Navier--Stokes Equation} \hfill Nov~2019
+    
+    \item Stochastic Calculus in Manifold Reading Seminar, 
+    \textit{Manifold-valued Semimartingales and their Quadratic Variation}
+    \hfill Oct 2019
+    
+    \item Junior Analysis Seminar, 
+    \textit{Regularity for a Local-Nonlocal Transmission Problem }
+    \hfill Apr 2019
+    
+    \item Sophex Seminar, 
+    \textit{An Introduction to Stochastic Integrals} 
+    \hfill Apr 2018
+    
+    \item Sophex Seminar, 
+    \textit{Stability and instability of shear flow in a rotating system} 
+    \hfill Sept 2017
+    
+    \item Fluid Mechanics Seminar, 
+    \textit{Inviscid Damping of Couette Flow in a Stratified Fluid} 
+    \hfill Apr 2017 
+    
+\end{itemize}
+
+\nvspace 
+{\bf Journal Refereeing}
+\vvspace
+
+\begin{itemize}[leftmargin=0.15in, label=$\sqbullet$]
+    \item SIAM Journal on Mathematical Analysis
+\end{itemize}
+
+\section{\sc Teaching}
+
+{\bf Teaching Assistant}
+\vvspace
+
+\begin{itemize}[leftmargin=0.15in, label=$\sqbullet$]
+    \item M383D \hspace{0.005in}| \textit{Methods of Applied Mathematics II} \hfill Spring 2021
+    \item M427J \hspace{0.04in}| \textit{Differential Equations with Linear Algebra} \hfill Spring 2019 -- Fall 2020
+    \item M427L \,| \textit{Advanced Calculus for Applications II} \hfill Fall 2018
+    \item M408D \hspace{0.002in}| \textit{Sequences, Series, and Multivariable Calculus} \hfill Spring 2018
+    \item M408K | \textit{Differential Calculus} \hfill Fall 2017
+\end{itemize}
+
+\section{\sc Outreach}
+
+{\bf Mentoring of Undergraduate Students}
+\vvspace
+
+\begin{itemize}[leftmargin=0.15in, label=$\sqbullet$]
+    \item Yongqi Pang, \textit{on the topic of Statistics and Data Analysis} \hfill Spring 2020
+    \item Trey Minor, \textit{on the topic of Differential Equations and Dynamical Systems} \hfill Spring 2019
+    \item Yan Cheng, \textit{on the topic of Probability and Martingales} \hfill Spring 2018
+\end{itemize}
+
+
+
+\iffalse
 
 % {\bf Xi'an Jiaotong University}, Xi'an, Shaanxi China
 
@@ -144,30 +348,14 @@ XJTU \hfill {\bf 2016}\\
 % We showed the decay rate for velocity and density variation to linearized Euler equations near stratified Couette flow under optimal regularity. We found the sharp decay rate depends solely on Richardson number. 
 
 % \vspace{-.3cm}
-{\em Visiting Research Student} \hfill {\bf Feb. 2017 - May 2017}\\
+{\em Visiting Research Student} \hfill {\bf 2017}\\
 Research includes the effect of density variation of fluids on the inviscid damping of stratified Couette flow, and the barotropic instability of shear flows for incompressible fluids with Coriolis effects.
 % For a class of shear flows, we developed a new method to find the sharp stability conditions. We studied the flow with sinus profile in details and obtained the sharp stability boundary in the whole parameter space, which corrects previous results in the fluid literature.
 
 {\bf The University of Texas at Austin}, Austin, Texas USA
 
-{\em Teaching Assistant} \hfill {\bf Sept. 2017 - Present}\\
+{\em Teaching Assistant} \hfill {\bf 2017 - Present}\\
 Teaching assistant for differential/integral/vector calculus, differential equations and linear algebra.
-
-\section{\sc Publications}
-
-\begin{etaremune}[leftmargin=0.02in, start=2]
-    \item Zhiwu Lin, Jincheng Yang, Hao Zhu. \textit{Barotropic Instability of Shear Flows}, Studies in Applied Mathematics, \textbf{144}: 289-326. 
-    \href{https://doi.org/10.1111/sapm.12297}{https://doi.org/10.1111/sapm.12297} (2020) 
-    \item Jincheng Yang, Zhiwu Lin. \textit{Linear Inviscid Damping for Couette Flow in Stratified Fluid}, Journal of Mathematical Fluid Mechanics, \textbf{20}: 445-472. \href{https://doi.org/10.1007/s00021-017-0328-3}{https://doi.org/10.1007/s00021-017-0328-3} (2018)
-    % \item Tao Xie, Xiangqian Cheng, Jincheng Yang. RAPTOR Program Designing Tutorial. Beijing: Tsinghua University Press. (2014)
-\end{etaremune}
-
-\section{\sc Preprint}
-
-\begin{etaremune}[leftmargin=0.02in, start=2]
-    \item Alexis Vasseur, Jincheng Yang. \textit{Second Derivatives Estimate of Suitable Solutions to the 3D Navier-Stokes Equations}, submitted, \href{https://arxiv.org/abs/2009.14291}{arXiv:2009.14291} (2020) 
-    \item Jincheng Yang. \textit{Construction of Maximal Functions associated with Skewed Cylinders Generated by Incompressible Flows and Applications}, submitted, \href{https://arxiv.org/abs/2008.05588}{arXiv:2008.05588} (2020)
-\end{etaremune}
 
 % \begin{comment}
 % \section{\sc Computer Skills} 
@@ -178,6 +366,7 @@ Teaching assistant for differential/integral/vector calculus, differential equat
 % \end{list2}
 % \end{comment}
 
+\fi
 
 \end{resume}
 \end{document}
