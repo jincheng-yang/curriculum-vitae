@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1631413842 "/Users/jincheng/Documents/GitHub/curriculum-vitae/main.tex" "/Users/jincheng/Documents/GitHub/curriculum-vitae/main.pdf" "main" 1631413853
+["pdflatex"] 1631414072 "/Users/jincheng/Documents/GitHub/curriculum-vitae/main.tex" "/Users/jincheng/Documents/GitHub/curriculum-vitae/main.pdf" "main" 1631414073
   "/Users/jincheng/Documents/GitHub/curriculum-vitae/main.aux" 1631413156 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/jincheng/Documents/GitHub/curriculum-vitae/main.tex" 1631413853 9276 4b7f74b6e7740d645cc9411915b22fd2 ""
-  "/dev/null" 1631413799 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/Users/jincheng/Documents/GitHub/curriculum-vitae/main.tex" 1631414072 9321 90e7960d15f756f51f271eae2160adf3 ""
+  "/dev/null" 1631414065 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -87,10 +87,10 @@
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1557342086 4259635 562fc36ec496993777a6c428d8bfb811 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
   "main.aux" 1631413156 8 a94a2480d3289e625eea47cd1b285758 ""
-  "main.tex" 1631413853 9276 4b7f74b6e7740d645cc9411915b22fd2 ""
+  "main.tex" 1631414072 9321 90e7960d15f756f51f271eae2160adf3 ""
   "res.cls" 1631413536 25109 4aaddbc00695c74cbaf6137679c86a6e ""
   (generated)
-  "/Users/jincheng/Documents/GitHub/curriculum-vitae/main.log"
-  "main.log"
   "main.pdf"
   "/Users/jincheng/Documents/GitHub/curriculum-vitae/main.pdf"
+  "main.log"
+  "/Users/jincheng/Documents/GitHub/curriculum-vitae/main.log"
